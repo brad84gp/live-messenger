@@ -1,0 +1,76 @@
+#find-room{
+    margin-top: 10%;
+}
+
+body{
+    background-color: rgb(0, 153, 255);
+}
+
+#title{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: -10%;
+    animation: title 5s normal infinite;
+}
+
+
+@keyframes title{
+    0%{color: red;}
+    25%{color: white;}
+    50%{color: green;}
+    75%{color: yellow;}
+    100%{color: black;}
+}
+
+
+    
+#input-row{
+    background-image: url('/static/images/cell.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 1200px;
+    width: 500px;
+    overflow: auto;
+    text-align: justify;
+    border-radius: 5px;
+    animation: input-row 5s normal infinite;
+}
+
+#inner-screen{
+    background-color: white;
+    border-radius: 1%;
+    margin: auto;
+    margin-top: 53%;
+    height: 650px;
+    width: 427px;
+    overflow: auto;
+    text-align: justify;
+}
+#form{
+    margin-top: 50%;
+}
+
+
+#input-row button{
+    margin: auto;
+    width: fit-content;
+}
+
+#input-row button:hover{
+    box-shadow: green 2px 3px 3px, green -2px -3px 3px;
+    animation: button 0.5s normal;
+}
+
+@keyframes button {
+    0%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+
+#input-col{
+    background-color: rgb(0, 153, 255);
+    padding: 4%;
+    border-style: inset;
+    border-color: black;
+    border-radius: 5px;
+}

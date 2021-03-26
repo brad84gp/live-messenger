@@ -1,0 +1,199 @@
+@media screen and (min-width: 525px){
+    #find-room{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (min-width: 600px){
+
+    #find-room{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    
+    #input-row{
+        background-image: url('/static/images/cell.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 1200px;
+        width: 500px;
+        overflow: auto;
+        text-align: justify;
+        border-radius: 5px;
+        animation: input-row 5s normal infinite;
+    }
+    
+    #inner-screen{
+        background-color: white;
+        border-radius: 1%;
+        margin: auto;
+        margin-top: 53%;
+        height: 650px;
+        width: 427px;
+        overflow: auto;
+        text-align: justify;
+    }
+
+    #message-area{
+        background-image: url('/static/images/cell.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 1200px;
+        width: 500px;
+        overflow: auto;
+        text-align: justify;
+        border-radius: 5px;
+        animation: input-row 5s normal infinite;
+    }
+    
+    #inner-screen{
+        background-color: white;
+        border-radius: 1%;
+        margin: auto;
+        margin-top: 53%;
+        height: 650px;
+        width: 427px;
+        overflow: auto;
+        text-align: justify;
+    }
+
+    #name{
+        background-color: rgb(112, 112, 255);
+        padding-top: 2%;
+        text-align: center;
+        position: relative;
+        border-color: black;
+        border-style: inset;
+        font-size: medium;
+        border-width: 5%;
+        margin-left: -3%;
+        width: 54%;
+        height: 50px;
+    }
+    
+    #room-name{
+        background-color: rgb(112, 112, 255);
+        padding-top: 2%;
+        text-align: center;
+        position: relative;
+        border-color: black;
+        border-style: inset;
+        border-width: 5%;
+        font-size: medium;
+        width: 55%;
+        margin-right: -3%;
+        margin-top: -14.5%;
+        float: right;
+        height: 50px;
+    }
+
+    #message-bar{
+        margin-top: -27.5%;
+        margin-left: 4.8%;
+        height: 60px;
+        width: 90.5%;
+    }
+    
+    #message-items{
+        list-style-type: none;
+    }
+    
+    #message-bar input{
+        width: 75%;
+        
+    }
+    
+    #message-btn{
+        align-self: center;
+        width: 25%;
+        height: 100%;
+    }
+    
+    #home-btn{
+        background-color: white;
+        margin: auto;
+        margin-top: -33%;
+        height: 100px;
+        width: 100px;
+        padding-top: 35px;
+        border-radius: 90%;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 770px){
+    #find-room{
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    #message-bar{
+        margin-top: -31%;
+        margin-left: 4.8%;
+        height: 60px;
+        width: 90.5%;
+    }
+    
+    
+    #home-btn{
+        background-color: white;
+        margin: auto;
+        margin-top: -33%;
+        height: 100px;
+        width: 100px;
+        padding-top: 35px;
+        border-radius: 90%;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #find-room{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    #find-room{
+        margin-left: 32%;
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    #find-room{
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    #find-room{
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 2000px){
+    #find-room{
+        margin-left: 41%;
+        margin-top: 10%;
+    }
+
+}
