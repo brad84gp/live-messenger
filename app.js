@@ -4,10 +4,14 @@ const nunjucks = require('nunjucks')
 const expressWs = require('express-ws')(app)
 const ExpressError = require('./expressError')
 
+app.set('view engine', 'ejs');
+
 app.use(express.json());
 
 app.use('/templates', express.static(__dirname + '/templates'));
 app.use('/static', express.static(__dirname + '/static'));
+
+
 
 
 
@@ -96,5 +100,8 @@ res.status(err.status || 500);
 return res.send({ err });
 });
 
+var port = process.env.PORT || 3000
 
-app.listen(3000)
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
+});

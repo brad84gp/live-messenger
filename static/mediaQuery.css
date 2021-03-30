@@ -196,4 +196,20 @@
         margin-top: 10%;
     }
 
+    #room-name{
+        background-color: rgb(112, 112, 255);
+        padding-top: 2%;
+        text-align: center;
+        position: relative;
+        border-color: black;
+        border-style: inset;
+        border-width: 5%;
+        font-size: medium;
+        width: 55%;
+        margin-right: -3%;
+        margin-top: -14.4%;
+        float: right;
+        height: 50px;
+    }
+
 }

@@ -8,5 +8,24 @@
     "nunjucks": "^3.2.3",
     "pg": "^8.5.1",
     "websocket": "^1.0.33"
-  }
+  },
+  "name": "live-messenger",
+  "description": "Live messenger app utilizing Node.js, Express, WebSockets, CSS, Bootstrap, and HTML",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad84gp/live-messenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brad84gp/live-messenger/issues"
+  },
+  "homepage": "https://github.com/brad84gp/live-messenger#readme"
 }
